@@ -1,3 +1,4 @@
+streamlit
 requests==2.31.0
 requests-pkcs12==1.19.0
 signxml==3.1.0
