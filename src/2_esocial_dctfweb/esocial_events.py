@@ -28,7 +28,7 @@ def gerar_evento_s1200(empregador_cnpj, trabalhador_cpf, valor_prolabore):
     ET.SubElement(ideTrab, "cpfTrab").text = trabalhador_cpf
     
     # Remuneração (Pró-labore)
-    info-rv = ET.SubElement(ideTrab, "infoRend")
+    info_rv = ET.SubElement(ideTrab, "infoRend")
     # Detalhes do vencimento da retirada do sócio
     
     xml_string = ET.tostring(root, encoding='utf-8', xml_declaration=True).decode('utf-8')
